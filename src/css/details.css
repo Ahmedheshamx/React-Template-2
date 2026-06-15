@@ -1,0 +1,79 @@
+
+
+.ditails {
+
+
+
+    .ditails-container {
+        padding: 10% 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+            min-height: 100dvh ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+        h2 {
+            margin: 10px 0 30px;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 5rem;
+            color: white;
+        }
+
+    }
+    
+
+
+    .ditails-info{
+        display: flex;
+        color: white;
+        gap: 20px;
+
+
+
+        p {
+                      margin: 2px;
+            padding: 10px 0px 10px 0px;
+            border: 1px solid #cccccc60;
+            border-radius: 5px;
+            font-size: 1.5rem;
+            max-width: 60%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            font-weight: bold;
+
+            span {
+                                background-color: rgba(87, 120, 120, 0.756);
+                padding: 13px;
+                font-weight: 400;
+                
+            }
+        }
+    }
+
+
+    .description {
+        all :unset;
+        color: rgb(236, 230, 230);
+        margin-top: 20px;
+        font-size: 1rem;
+        background-color: rgba(210, 214, 219, 0.294);
+        border-radius: 5px;
+        padding: 5px;
+        line-height: 2;
+      
+    }
+  
+}
+
+
+.ditails-units {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px 0;
+}

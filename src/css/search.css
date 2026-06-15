@@ -1,0 +1,15 @@
+.search {
+    padding: 15px 20%;
+
+
+    input {
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+        border-radius: 30px;
+        width: 100%;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
