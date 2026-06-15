@@ -77,3 +77,49 @@
     justify-content: center;
     margin: 30px 0;
 }
+
+
+@media (max-width: 768px) {
+
+
+    .ditails {
+
+          .ditails-info {
+        flex-direction: column;
+
+        p {
+            font-size: 1rem;
+            padding: 10px;
+
+
+            
+        }
+
+      
+    }
+
+    .ditails-container {
+
+
+        h2 {
+            font-size: 3rem ; 
+            margin-top: 50px;
+    
+        }
+    }
+
+
+      
+}
+
+
+
+    }
+
+
+
+
+
+
+
+
